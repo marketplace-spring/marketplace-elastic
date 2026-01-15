@@ -9,11 +9,9 @@ public class Image {
     @Field(type = FieldType.Long)
     private Long id;
     @Field(type = FieldType.Text, index = false)
-    private String root;
+    private String large;
     @Field(type = FieldType.Text, index = false)
-    private String folder;
+    private String medium;
     @Field(type = FieldType.Text, index = false)
-    private String fileName;
-    @Field(type = FieldType.Text, index = false)
-    private String largeFileName;
+    private String small;
 }

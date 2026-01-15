@@ -34,9 +34,6 @@ public class Product {
     @Field(type = FieldType.Object)
     private Brand brand;
 
-    @Field(type = FieldType.Object)
-    private Category category;
-
     @Field(type = FieldType.Nested)
     private List<Category> categories;
 
